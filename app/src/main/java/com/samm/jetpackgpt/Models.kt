@@ -30,12 +30,6 @@ data class Usage(
     val total_tokens: Int
 )
 
-
-
-
-
-
-
 data class GptRequest(
     val prompt: String,
     val max_tokens: Int,
@@ -44,8 +38,4 @@ data class GptRequest(
 
 data class GptResponse(
     val choices: List<Choice>
-)
-
-data class Choices(
-    val text: String
 )

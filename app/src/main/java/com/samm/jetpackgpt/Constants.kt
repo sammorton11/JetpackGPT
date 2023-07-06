@@ -1,5 +1,6 @@
 package com.samm.jetpackgpt
 
 object Constants {
-    const val API_KEY = "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"
+    // Replace with you own API_KEY - this one will not work for you.
+    const val API_KEY = "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"
 }
